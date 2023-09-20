@@ -4,7 +4,7 @@ const Axios = require('axios');
 const csvtojson = require('csvtojson');
 const https = require('https');
 
-const csvPath = './csv/TB_COD_PAT - cópia.csv';
+const csvPath = './csv/TB_COD_PAT.csv';
 console.log(csvPath);
 
 async function downloadImage () {
